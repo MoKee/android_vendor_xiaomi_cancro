@@ -413,7 +413,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/cancro/proprietary/lib/libnfctester_jni.so:system/lib/libnfctester_jni.so \
     vendor/xiaomi/cancro/proprietary/bin/dumpe2fs:system/bin/dumpe2fs \
     vendor/xiaomi/cancro/proprietary/bin/e2fsck:system/bin/e2fsck \
-    vendor/xiaomi/cancro/proprietary/lib/hw/consumerir.msm8974.so:system/lib/hw/consumerir.msm8974.so \
     vendor/xiaomi/cancro/proprietary/vendor/lib/hw/power.qcom.so:system/vendor/lib/hw/power.qcom.so \
     vendor/xiaomi/cancro/proprietary/bin/changepowermode.sh:system/bin/changepowermode.sh \
     vendor/xiaomi/cancro/proprietary/bin/ssr_diag:system/bin/ssr_diag \
@@ -438,9 +437,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/cancro/proprietary/vendor/lib/liblisten.so:system/vendor/lib/liblisten.so \
     vendor/xiaomi/cancro/proprietary/vendor/lib/liblistensoundmodel2.so:system/vendor/lib/liblistensoundmodel2.so \
     vendor/xiaomi/cancro/proprietary/vendor/lib/liblistensoundmodel.so:system/vendor/lib/liblistensoundmodel.so \
-    vendor/xiaomi/cancro/proprietary/lib/hw/audio_policy.msm8974.so:system/lib/hw/audio_policy.msm8974.so \
-    vendor/xiaomi/cancro/proprietary/lib/hw/audio.primary.msm8974.so:system/lib/hw/audio.primary.msm8974.so \
-    vendor/xiaomi/cancro/proprietary/lib/libtinyalsa.so:system/lib/libtinyalsa.so \
     vendor/xiaomi/cancro/proprietary/bin/wcnss_filter:system/bin/wcnss_filter \
     vendor/xiaomi/cancro/proprietary/bin/wcnss_service:system/bin/wcnss_service \
     vendor/xiaomi/cancro/proprietary/bin/fmconfig:system/bin/fmconfig \
