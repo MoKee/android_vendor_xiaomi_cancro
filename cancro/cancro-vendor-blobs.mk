@@ -382,8 +382,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/cancro/proprietary/bin/radish:system/bin/radish \
     vendor/xiaomi/cancro/proprietary/bin/rfs_access:system/bin/rfs_access \
     vendor/xiaomi/cancro/proprietary/bin/rmt_storage:system/bin/rmt_storage \
-    vendor/xiaomi/cancro/proprietary/bin/rild:system/bin/rild \
-    vendor/xiaomi/cancro/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/xiaomi/cancro/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
     vendor/xiaomi/cancro/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
     vendor/xiaomi/cancro/proprietary/framework/qcnvitems.jar:system/framework/qcnvitems.jar \

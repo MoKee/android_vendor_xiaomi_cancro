@@ -26,6 +26,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     com.qualcomm.location \
     qcrilmsgtunnel \
+    QuickBoot \
     shutdownlistener
 
 $(call inherit-product, vendor/xiaomi/cancro/cancro-vendor-blobs.mk)
