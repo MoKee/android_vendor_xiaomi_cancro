@@ -425,7 +425,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/cancro/proprietary/vendor/lib/libdsucsd.so:system/vendor/lib/libdsucsd.so \
     vendor/xiaomi/cancro/proprietary/vendor/lib/libjpegdhw.so:system/vendor/lib/libjpegdhw.so \
     vendor/xiaomi/cancro/proprietary/vendor/lib/liboptizoom.so:system/vendor/lib/liboptizoom.so \
-    vendor/xiaomi/cancro/proprietary/bin/atmel_hover_tune.sh:system/bin/atmel_hover_tune.sh \
     vendor/xiaomi/cancro/proprietary/vendor/lib/liblistenhardware.so:system/vendor/lib/liblistenhardware.so \
     vendor/xiaomi/cancro/proprietary/vendor/lib/liblistenjni.so:system/vendor/lib/liblistenjni.so \
     vendor/xiaomi/cancro/proprietary/vendor/lib/liblisten.so:system/vendor/lib/liblisten.so \
