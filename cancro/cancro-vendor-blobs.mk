@@ -458,5 +458,4 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/cancro/proprietary/vendor/lib/lib-rtpdaemoninterface.so:system/vendor/lib/lib-rtpdaemoninterface.so \
     vendor/xiaomi/cancro/proprietary/vendor/lib/lib-rtpsl.so:system/vendor/lib/lib-rtpsl.so \
     vendor/xiaomi/cancro/proprietary/bin/rild:system/bin/rild \
-    vendor/xiaomi/cancro/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
     vendor/xiaomi/cancro/proprietary/lib/libril.so:system/lib/libril.so
