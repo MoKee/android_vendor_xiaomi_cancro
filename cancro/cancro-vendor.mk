@@ -21,7 +21,8 @@ PRODUCT_PACKAGES += \
     libHevcSwDecoder \
     libmm-abl \
     libscale \
-    libtime_genoff
+    libtime_genoff \
+    libqminvapi
 
 PRODUCT_PACKAGES += \
     com.qualcomm.location \
