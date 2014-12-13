@@ -20,14 +20,17 @@ DEVICE_PACKAGE_OVERLAYS += vendor/xiaomi/cancro/overlay
 PRODUCT_PACKAGES += \
     libHevcSwDecoder \
     libmm-abl \
-    libscale \
-    libtime_genoff \
-    libqminvapi
+    libTimeService \
+    libqct_resampler \
+    sensors.msm8974 \
+    libqminvapi \
+    libtime_genoff
 
 PRODUCT_PACKAGES += \
     com.qualcomm.location \
     qcrilmsgtunnel \
     QuickBoot \
-    shutdownlistener
+    shutdownlistener \
+    TimeService
 
 $(call inherit-product, vendor/xiaomi/cancro/cancro-vendor-blobs.mk)
