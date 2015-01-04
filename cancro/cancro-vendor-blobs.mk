@@ -271,8 +271,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/cancro/proprietary/vendor/firmware/keymaster/keymaster.b02:system/vendor/firmware/keymaster/keymaster.b02 \
     vendor/xiaomi/cancro/proprietary/vendor/firmware/keymaster/keymaster.b03:system/vendor/firmware/keymaster/keymaster.b03 \
     vendor/xiaomi/cancro/proprietary/vendor/firmware/keymaster/keymaster.mdt:system/vendor/firmware/keymaster/keymaster.mdt \
-   vendor/xiaomi/cancro/proprietary/vendor/firmware/BCM20791B5_002.006.013.0011.0094_Customers_China_NCD_Unsigned_configdata.ncd:system/vendor/firmware/BCM20791B5_002.006.013.0011.0094_Customers_China_NCD_Unsigned_configdata.ncd \
-   vendor/xiaomi/cancro/proprietary/vendor/firmware/BCM20791B5_002.006.013.0011.0094_Generic_PreI2C_NCD_Unsigned_configdata.ncd:system/vendor/firmware/BCM20791B5_002.006.013.0011.0094_Generic_PreI2C_NCD_Unsigned_configdata.ncd \
+   vendor/xiaomi/cancro/proprietary/vendor/firmware/bcm2079xB5_firmware.ncd:system/vendor/firmware/bcm2079xB5_firmware.ncd \
+   vendor/xiaomi/cancro/proprietary/vendor/firmware/bcm2079xB5_pre_firmware.ncd:system/vendor/firmware/bcm2079xB5_pre_firmware.ncd \
     vendor/xiaomi/cancro/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:system/etc/firmware/cpp_firmware_v1_1_1.fw \
     vendor/xiaomi/cancro/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:system/etc/firmware/cpp_firmware_v1_1_6.fw \
     vendor/xiaomi/cancro/proprietary/etc/firmware/cpp_firmware_v1_2_0.fw:system/etc/firmware/cpp_firmware_v1_2_0.fw \
