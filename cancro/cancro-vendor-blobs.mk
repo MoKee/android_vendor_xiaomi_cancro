@@ -386,7 +386,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/cancro/proprietary/vendor/lib/libsensor_test.so:system/vendor/lib/libsensor_test.so \
     vendor/xiaomi/cancro/proprietary/vendor/lib/libsensor_user_cal.so:system/vendor/lib/libsensor_user_cal.so \
     vendor/xiaomi/cancro/proprietary/etc/sensor_def_qcomdev.conf:system/etc/sensor_def_qcomdev.conf \
-    vendor/xiaomi/cancro/proprietary/lib/hw/nfc_nci_nfca.default.so:system/lib/hw/nfc_nci_nfca.default.so \
     vendor/xiaomi/cancro/proprietary/bin/thermal-engine:system/bin/thermal-engine \
     vendor/xiaomi/cancro/proprietary/bin/thermald:system/bin/thermald \
     vendor/xiaomi/cancro/proprietary/vendor/lib/libthermalioctl.so:system/vendor/lib/libthermalioctl.so \
