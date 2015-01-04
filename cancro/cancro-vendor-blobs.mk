@@ -297,6 +297,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/cancro/proprietary/vendor/lib/soundfx/libqcbassboost.so:system/vendor/lib/soundfx/libqcbassboost.so \
     vendor/xiaomi/cancro/proprietary/vendor/lib/soundfx/libqcreverb.so:system/vendor/lib/soundfx/libqcreverb.so \
     vendor/xiaomi/cancro/proprietary/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so \
+    vendor/xiaomi/cancro/proprietary/vendor/lib/liblowi_client.so:system/vendor/lib/liblowi_client.so \
     vendor/xiaomi/cancro/proprietary/bin/gsiff_daemon:system/bin/gsiff_daemon \
     vendor/xiaomi/cancro/proprietary/bin/quipc_main:system/bin/quipc_main \
     vendor/xiaomi/cancro/proprietary/bin/quipc_igsn:system/bin/quipc_igsn \
@@ -386,6 +387,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/cancro/proprietary/vendor/lib/libsensor_test.so:system/vendor/lib/libsensor_test.so \
     vendor/xiaomi/cancro/proprietary/vendor/lib/libsensor_user_cal.so:system/vendor/lib/libsensor_user_cal.so \
     vendor/xiaomi/cancro/proprietary/etc/sensor_def_qcomdev.conf:system/etc/sensor_def_qcomdev.conf \
+    vendor/xiaomi/cancro/proprietary/etc/lowi.conf:system/etc/lowi.conf \
     vendor/xiaomi/cancro/proprietary/lib/hw/nfc_nci_nfca.default.so:system/lib/hw/nfc_nci_nfca.default.so \
     vendor/xiaomi/cancro/proprietary/bin/thermal-engine:system/bin/thermal-engine \
     vendor/xiaomi/cancro/proprietary/bin/thermald:system/bin/thermald \
@@ -430,6 +432,10 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/cancro/proprietary/bin/imsdatadaemon:system/bin/imsdatadaemon \
     vendor/xiaomi/cancro/proprietary/bin/imsqmidaemon:system/bin/imsqmidaemon \
     vendor/xiaomi/cancro/proprietary/bin/ims_rtp_daemon:system/bin/ims_rtp_daemon \
+    vendor/xiaomi/cancro/proprietary/bin/changepowermode.sh:system/bin/changepowermode.sh \
+    vendor/xiaomi/cancro/proprietary/bin/lowi-server:system/bin/lowi-server \
+    vendor/xiaomi/cancro/proprietary/bin/xtwifi-client:system/bin/xtwifi-client \
+    vendor/xiaomi/cancro/proprietary/bin/xtwifi-inet-agent:system/bin/xtwifi-inet-agent \
     vendor/xiaomi/cancro/proprietary/vendor/lib/lib-imsdpl.so:system/vendor/lib/lib-imsdpl.so \
     vendor/xiaomi/cancro/proprietary/vendor/lib/lib-imsqimf.so:system/vendor/lib/lib-imsqimf.so \
     vendor/xiaomi/cancro/proprietary/vendor/lib/lib-imsxml.so:system/vendor/lib/lib-imsxml.so \
