@@ -424,6 +424,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/cancro/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/xiaomi/cancro/proprietary/bin/rild:system/bin/rild \
     vendor/xiaomi/cancro/proprietary/lib/libril.so:system/lib/libril.so \
+    vendor/xiaomi/cancro/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
+    vendor/xiaomi/cancro/proprietary/lib/librilutils.so:system/lib/librilutils.so \
     vendor/xiaomi/cancro/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/xiaomi/cancro/proprietary/bin/qosmgr:system/bin/qosmgr \
     vendor/xiaomi/cancro/proprietary/bin/imsdatadaemon:system/bin/imsdatadaemon \
