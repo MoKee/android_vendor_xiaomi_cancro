@@ -12,61 +12,16 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/cancro/proprietary/vendor/lib/libFaceProc.so:system/vendor/lib/libFaceProc.so \
     vendor/xiaomi/cancro/proprietary/vendor/lib/libFaceDeform.so:system/vendor/lib/libFaceDeform.so \
     vendor/xiaomi/cancro/proprietary/vendor/lib/libarcsoft_beauty_shot.so:system/vendor/lib/libarcsoft_beauty_shot.so \
-    vendor/xiaomi/cancro/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
-    vendor/xiaomi/cancro/proprietary/vendor/lib/libsc-a2xx.so:system/vendor/lib/libsc-a2xx.so \
-    vendor/xiaomi/cancro/proprietary/vendor/lib/libsc-a3xx.so:system/vendor/lib/libsc-a3xx.so \
-    vendor/xiaomi/cancro/proprietary/vendor/lib/libt2tmanager.so:system/vendor/lib/libt2tmanager.so \
     vendor/xiaomi/cancro/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
-    vendor/xiaomi/cancro/proprietary/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_hfr_120fps.so:system/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_hfr_120fps.so \
-    vendor/xiaomi/cancro/proprietary/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_hfr_90fps.so:system/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_hfr_90fps.so \
-    vendor/xiaomi/cancro/proprietary/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_video_hd.so:system/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_video_hd.so \
-    vendor/xiaomi/cancro/proprietary/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_zsl.so:system/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_zsl.so \
-    vendor/xiaomi/cancro/proprietary/vendor/lib/libchromatix_imx134_hfr_120.so:system/vendor/lib/libchromatix_imx134_hfr_120.so \
-    vendor/xiaomi/cancro/proprietary/vendor/lib/libchromatix_imx134_hfr_60.so:system/vendor/lib/libchromatix_imx134_hfr_60.so \
-    vendor/xiaomi/cancro/proprietary/vendor/lib/libchromatix_imx135_video_hd.so:system/vendor/lib/libchromatix_imx135_video_hd.so \
-    vendor/xiaomi/cancro/proprietary/vendor/lib/libchromatix_imx225_common.so:system/vendor/lib/libchromatix_imx225_common.so \
-    vendor/xiaomi/cancro/proprietary/vendor/lib/libchromatix_imx225_default_video.so:system/vendor/lib/libchromatix_imx225_default_video.so \
-    vendor/xiaomi/cancro/proprietary/vendor/lib/libchromatix_imx225_hfr_120.so:system/vendor/lib/libchromatix_imx225_hfr_120.so \
-    vendor/xiaomi/cancro/proprietary/vendor/lib/libchromatix_imx225_preview.so:system/vendor/lib/libchromatix_imx225_preview.so \
-    vendor/xiaomi/cancro/proprietary/vendor/lib/libchromatix_imx225_snapshot.so:system/vendor/lib/libchromatix_imx225_snapshot.so \
-    vendor/xiaomi/cancro/proprietary/vendor/lib/libchromatix_imx225_snapshot_hdr.so:system/vendor/lib/libchromatix_imx225_snapshot_hdr.so \
-    vendor/xiaomi/cancro/proprietary/vendor/lib/libchromatix_imx225_video_hdr.so:system/vendor/lib/libchromatix_imx225_video_hdr.so \
-    vendor/xiaomi/cancro/proprietary/vendor/lib/libchromatix_imx225_video_hdr_uhd.so:system/vendor/lib/libchromatix_imx225_video_hdr_uhd.so \
-    vendor/xiaomi/cancro/proprietary/vendor/lib/libchromatix_imx225_video_uhd.so:system/vendor/lib/libchromatix_imx225_video_uhd.so \
-    vendor/xiaomi/cancro/proprietary/vendor/lib/libchromatix_imx226_common.so:system/vendor/lib/libchromatix_imx226_common.so \
-    vendor/xiaomi/cancro/proprietary/vendor/lib/libchromatix_imx226_default_video.so:system/vendor/lib/libchromatix_imx226_default_video.so \
-    vendor/xiaomi/cancro/proprietary/vendor/lib/libchromatix_imx226_hfr_120.so:system/vendor/lib/libchromatix_imx226_hfr_120.so \
-    vendor/xiaomi/cancro/proprietary/vendor/lib/libchromatix_imx226_preview.so:system/vendor/lib/libchromatix_imx226_preview.so \
-    vendor/xiaomi/cancro/proprietary/vendor/lib/libchromatix_imx226_snapshot.so:system/vendor/lib/libchromatix_imx226_snapshot.so \
-    vendor/xiaomi/cancro/proprietary/vendor/lib/libchromatix_imx226_snapshot_hdr.so:system/vendor/lib/libchromatix_imx226_snapshot_hdr.so \
-    vendor/xiaomi/cancro/proprietary/vendor/lib/libchromatix_imx226_video_hdr.so:system/vendor/lib/libchromatix_imx226_video_hdr.so \
-    vendor/xiaomi/cancro/proprietary/vendor/lib/libchromatix_imx226_video_hdr_uhd.so:system/vendor/lib/libchromatix_imx226_video_hdr_uhd.so \
-    vendor/xiaomi/cancro/proprietary/vendor/lib/libchromatix_imx226_video_uhd.so:system/vendor/lib/libchromatix_imx226_video_uhd.so \
-    vendor/xiaomi/cancro/proprietary/vendor/lib/libchromatix_ov2720_zsl.so:system/vendor/lib/libchromatix_ov2720_zsl.so \
-    vendor/xiaomi/cancro/proprietary/vendor/lib/libchromatix_ov4688_hfr.so:system/vendor/lib/libchromatix_ov4688_hfr.so \
-    vendor/xiaomi/cancro/proprietary/vendor/lib/libchromatix_ov4688_preview.so:system/vendor/lib/libchromatix_ov4688_preview.so \
-    vendor/xiaomi/cancro/proprietary/vendor/lib/libchromatix_ov4689_common.so:system/vendor/lib/libchromatix_ov4689_common.so \
-    vendor/xiaomi/cancro/proprietary/vendor/lib/libchromatix_ov4689_default_video.so:system/vendor/lib/libchromatix_ov4689_default_video.so \
-    vendor/xiaomi/cancro/proprietary/vendor/lib/libchromatix_ov4689_hfr.so:system/vendor/lib/libchromatix_ov4689_hfr.so \
-    vendor/xiaomi/cancro/proprietary/vendor/lib/libchromatix_ov4689_liveshot.so:system/vendor/lib/libchromatix_ov4689_liveshot.so \
-    vendor/xiaomi/cancro/proprietary/vendor/lib/libchromatix_ov4689_preview.so:system/vendor/lib/libchromatix_ov4689_preview.so \
-    vendor/xiaomi/cancro/proprietary/vendor/lib/libchromatix_ov4689_zsl.so:system/vendor/lib/libchromatix_ov4689_zsl.so \
-    vendor/xiaomi/cancro/proprietary/vendor/lib/libchromatix_ov5648_oty5f03_zsl.so:system/vendor/lib/libchromatix_ov5648_oty5f03_zsl.so \
-    vendor/xiaomi/cancro/proprietary/vendor/lib/libchromatix_skuf_ov12830_p12v01c_video_hd.so:system/vendor/lib/libchromatix_skuf_ov12830_p12v01c_video_hd.so \
-    vendor/xiaomi/cancro/proprietary/vendor/lib/libchromatix_skuf_ov12830_p12v01c_zsl.so:system/vendor/lib/libchromatix_skuf_ov12830_p12v01c_zsl.so \
-    vendor/xiaomi/cancro/proprietary/vendor/lib/libmmcamera_imx225.so:system/vendor/lib/libmmcamera_imx225.so \
-    vendor/xiaomi/cancro/proprietary/vendor/lib/libmmcamera_imx226.so:system/vendor/lib/libmmcamera_imx226.so \
-    vendor/xiaomi/cancro/proprietary/vendor/lib/libmmcamera_ov4689.so:system/vendor/lib/libmmcamera_ov4689.so \
     vendor/xiaomi/cancro/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/xiaomi/cancro/proprietary/vendor/lib/liboemcamera.so:system/vendor/lib/liboemcamera.so \
     vendor/xiaomi/cancro/proprietary/vendor/lib/libmmcamera2_stats_modules.so:system/vendor/lib/libmmcamera2_stats_modules.so \
     vendor/xiaomi/cancro/proprietary/vendor/lib/libmmcamera2_stats_algorithm.so:system/vendor/lib/libmmcamera2_stats_algorithm.so \
     vendor/xiaomi/cancro/proprietary/vendor/lib/libmmcamera2_q3a_special.so:system/vendor/lib/libmmcamera2_q3a_special.so \
-    vendor/xiaomi/cancro/proprietary/vendor/lib/libqmi_encdec.so:system/vendor/lib/libqmi_encdec.so \
     vendor/xiaomi/cancro/proprietary/vendor/lib/libmmcamera2_iface_modules.so:system/vendor/lib/libmmcamera2_iface_modules.so \
     vendor/xiaomi/cancro/proprietary/vendor/lib/libmmcamera2_isp_modules.so:system/vendor/lib/libmmcamera2_isp_modules.so \
-    vendor/xiaomi/cancro/proprietary/vendor/lib/libmmcamera_tintless_bg_pca_algo.so:system/vendor/lib/libmmcamera_tintless_bg_pca_algo.so \
     vendor/xiaomi/cancro/proprietary/vendor/lib/libmmcamera_tintless_algo.so:system/vendor/lib/libmmcamera_tintless_algo.so \
+    vendor/xiaomi/cancro/proprietary/vendor/lib/libmmcamera_tintless_bg_pca_algo.so:system/vendor/lib/libmmcamera_tintless_bg_pca_algo.so \
     vendor/xiaomi/cancro/proprietary/vendor/lib/libmmcamera2_sensor_modules.so:system/vendor/lib/libmmcamera2_sensor_modules.so \
     vendor/xiaomi/cancro/proprietary/vendor/lib/libmmcamera_ov2720.so:system/vendor/lib/libmmcamera_ov2720.so \
     vendor/xiaomi/cancro/proprietary/vendor/lib/libchromatix_ov2720_common.so:system/vendor/lib/libchromatix_ov2720_common.so \
@@ -149,6 +104,17 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/cancro/proprietary/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_liveshot.so:system/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_liveshot.so \
     vendor/xiaomi/cancro/proprietary/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_preview.so:system/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_preview.so \
     vendor/xiaomi/cancro/proprietary/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_hfr_60fps.so:system/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_hfr_60fps.so \
+    vendor/xiaomi/cancro/proprietary/vendor/lib/libmmcamera_imx226.so:system/vendor/lib/libmmcamera_imx226.so \
+    vendor/xiaomi/cancro/proprietary/vendor/lib/libchromatix_imx226_common.so:system/vendor/lib/libchromatix_imx226_common.so \
+    vendor/xiaomi/cancro/proprietary/vendor/lib/libchromatix_imx226_snapshot.so:system/vendor/lib/libchromatix_imx226_snapshot.so \
+    vendor/xiaomi/cancro/proprietary/vendor/lib/libchromatix_imx226_default_video.so:system/vendor/lib/libchromatix_imx226_default_video.so \
+    vendor/xiaomi/cancro/proprietary/lib/libchromatix_imx226_liveshot.so:system/lib/libchromatix_imx226_liveshot.so \
+    vendor/xiaomi/cancro/proprietary/vendor/lib/libchromatix_imx226_preview.so:system/vendor/lib/libchromatix_imx226_preview.so \
+    vendor/xiaomi/cancro/proprietary/vendor/lib/libchromatix_imx226_video_uhd.so:system/vendor/lib/libchromatix_imx226_video_uhd.so \
+    vendor/xiaomi/cancro/proprietary/vendor/lib/libchromatix_imx226_hfr_120.so:system/vendor/lib/libchromatix_imx226_hfr_120.so \
+    vendor/xiaomi/cancro/proprietary/vendor/lib/libchromatix_imx226_video_hdr.so:system/vendor/lib/libchromatix_imx226_video_hdr.so \
+    vendor/xiaomi/cancro/proprietary/vendor/lib/libchromatix_imx226_snapshot_hdr.so:system/vendor/lib/libchromatix_imx226_snapshot_hdr.so \
+    vendor/xiaomi/cancro/proprietary/vendor/lib/libchromatix_imx226_video_hdr_uhd.so:system/vendor/lib/libchromatix_imx226_video_hdr_uhd.so \
     vendor/xiaomi/cancro/proprietary/vendor/lib/libmmcamera_imx135.so:system/vendor/lib/libmmcamera_imx135.so \
     vendor/xiaomi/cancro/proprietary/vendor/lib/libchromatix_imx135_common.so:system/vendor/lib/libchromatix_imx135_common.so \
     vendor/xiaomi/cancro/proprietary/vendor/lib/libchromatix_imx135_snapshot.so:system/vendor/lib/libchromatix_imx135_snapshot.so \
@@ -171,15 +137,14 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/cancro/proprietary/vendor/lib/libmmcamera2_pproc_modules.so:system/vendor/lib/libmmcamera2_pproc_modules.so \
     vendor/xiaomi/cancro/proprietary/vendor/lib/libmmcamera2_cpp_module.so:system/vendor/lib/libmmcamera2_cpp_module.so \
     vendor/xiaomi/cancro/proprietary/vendor/lib/libmmcamera2_c2d_module.so:system/vendor/lib/libmmcamera2_c2d_module.so \
-    vendor/xiaomi/cancro/proprietary/vendor/lib/libc2d30-a4xx.so:system/vendor/lib/libc2d30-a4xx.so \
-    vendor/xiaomi/cancro/proprietary/vendor/lib/libc2d2_z180.so:system/vendor/lib/libc2d2_z180.so \
+    vendor/xiaomi/cancro/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
+    vendor/xiaomi/cancro/proprietary/vendor/lib/libc2d30-a3xx.so:system/vendor/lib/libc2d30-a3xx.so \
     vendor/xiaomi/cancro/proprietary/vendor/lib/libmmcamera2_imglib_modules.so:system/vendor/lib/libmmcamera2_imglib_modules.so \
     vendor/xiaomi/cancro/proprietary/vendor/lib/libmmcamera2_frame_algorithm.so:system/vendor/lib/libmmcamera2_frame_algorithm.so \
     vendor/xiaomi/cancro/proprietary/vendor/lib/libmmcamera_chromaflash_lib.so:system/vendor/lib/libmmcamera_chromaflash_lib.so \
     vendor/xiaomi/cancro/proprietary/vendor/lib/libchromaflash.so:system/vendor/lib/libchromaflash.so \
     vendor/xiaomi/cancro/proprietary/vendor/lib/libmmcamera2_wnr_module.so:system/vendor/lib/libmmcamera2_wnr_module.so \
     vendor/xiaomi/cancro/proprietary/vendor/lib/libmmcamera2_vpe_module.so:system/vendor/lib/libmmcamera2_vpe_module.so \
-    vendor/xiaomi/cancro/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
     vendor/xiaomi/cancro/proprietary/vendor/lib/libmmcamera_imx215.so:system/vendor/lib/libmmcamera_imx215.so \
     vendor/xiaomi/cancro/proprietary/vendor/lib/libchromatix_imx215_common.so:system/vendor/lib/libchromatix_imx215_common.so \
     vendor/xiaomi/cancro/proprietary/vendor/lib/libchromatix_imx215_snapshot.so:system/vendor/lib/libchromatix_imx215_snapshot.so \
@@ -191,6 +156,17 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/cancro/proprietary/vendor/lib/libchromatix_imx215_video_hdr.so:system/vendor/lib/libchromatix_imx215_video_hdr.so \
     vendor/xiaomi/cancro/proprietary/vendor/lib/libchromatix_imx215_snapshot_hdr.so:system/vendor/lib/libchromatix_imx215_snapshot_hdr.so \
     vendor/xiaomi/cancro/proprietary/vendor/lib/libchromatix_imx215_video_hdr_uhd.so:system/vendor/lib/libchromatix_imx215_video_hdr_uhd.so \
+    vendor/xiaomi/cancro/proprietary/vendor/lib/libmmcamera_imx225.so:system/vendor/lib/libmmcamera_imx225.so \
+    vendor/xiaomi/cancro/proprietary/vendor/lib/libchromatix_imx225_common.so:system/vendor/lib/libchromatix_imx225_common.so \
+    vendor/xiaomi/cancro/proprietary/vendor/lib/libchromatix_imx225_snapshot.so:system/vendor/lib/libchromatix_imx225_snapshot.so \
+    vendor/xiaomi/cancro/proprietary/vendor/lib/libchromatix_imx225_default_video.so:system/vendor/lib/libchromatix_imx225_default_video.so \
+    vendor/xiaomi/cancro/proprietary/lib/libchromatix_imx225_liveshot.so:system/lib/libchromatix_imx225_liveshot.so \
+    vendor/xiaomi/cancro/proprietary/vendor/lib/libchromatix_imx225_preview.so:system/vendor/lib/libchromatix_imx225_preview.so \
+    vendor/xiaomi/cancro/proprietary/vendor/lib/libchromatix_imx225_video_uhd.so:system/vendor/lib/libchromatix_imx225_video_uhd.so \
+    vendor/xiaomi/cancro/proprietary/vendor/lib/libchromatix_imx225_hfr_120.so:system/vendor/lib/libchromatix_imx225_hfr_120.so \
+    vendor/xiaomi/cancro/proprietary/vendor/lib/libchromatix_imx225_video_hdr.so:system/vendor/lib/libchromatix_imx225_video_hdr.so \
+    vendor/xiaomi/cancro/proprietary/vendor/lib/libchromatix_imx225_snapshot_hdr.so:system/vendor/lib/libchromatix_imx225_snapshot_hdr.so \
+    vendor/xiaomi/cancro/proprietary/vendor/lib/libchromatix_imx225_video_hdr_uhd.so:system/vendor/lib/libchromatix_imx225_video_hdr_uhd.so \
     vendor/xiaomi/cancro/proprietary/vendor/lib/libmmcamera_truly_cm7700_eeprom.so:system/vendor/lib/libmmcamera_truly_cm7700_eeprom.so \
     vendor/xiaomi/cancro/proprietary/vendor/lib/libmmcamera_ofilm_oty5f03_eeprom.so:system/vendor/lib/libmmcamera_ofilm_oty5f03_eeprom.so \
     vendor/xiaomi/cancro/proprietary/vendor/lib/libmmcamera_SKUAA_ST_gc0339.so:system/vendor/lib/libmmcamera_SKUAA_ST_gc0339.so \
@@ -215,6 +191,11 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/cancro/proprietary/vendor/lib/libchromatix_ov8825_hfr_60fps.so:system/vendor/lib/libchromatix_ov8825_hfr_60fps.so \
     vendor/xiaomi/cancro/proprietary/vendor/lib/libchromatix_ov8825_hfr_90fps.so:system/vendor/lib/libchromatix_ov8825_hfr_90fps.so \
     vendor/xiaomi/cancro/proprietary/vendor/lib/libchromatix_ov8825_hfr_120fps.so:system/vendor/lib/libchromatix_ov8825_hfr_120fps.so \
+    vendor/xiaomi/cancro/proprietary/vendor/lib/libmmcamera_ov4689.so:system/vendor/lib/libmmcamera_ov4689.so \
+    vendor/xiaomi/cancro/proprietary/vendor/lib/libchromatix_ov4689_common.so:system/vendor/lib/libchromatix_ov4689_common.so \
+    vendor/xiaomi/cancro/proprietary/vendor/lib/libchromatix_ov4689_zsl.so:system/vendor/lib/libchromatix_ov4689_zsl.so \
+    vendor/xiaomi/cancro/proprietary/vendor/lib/libchromatix_ov4689_default_video.so:system/vendor/lib/libchromatix_ov4689_default_video.so \
+    vendor/xiaomi/cancro/proprietary/vendor/lib/libchromatix_ov4689_liveshot.so:system/vendor/lib/libchromatix_ov4689_liveshot.so \
     vendor/xiaomi/cancro/proprietary/vendor/lib/libmmcamera_ov4688.so:system/vendor/lib/libmmcamera_ov4688.so \
     vendor/xiaomi/cancro/proprietary/vendor/lib/libchromatix_ov4688_common.so:system/vendor/lib/libchromatix_ov4688_common.so \
     vendor/xiaomi/cancro/proprietary/vendor/lib/libchromatix_ov4688_zsl.so:system/vendor/lib/libchromatix_ov4688_zsl.so \
@@ -266,16 +247,16 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/cancro/proprietary/vendor/lib/libactuator_rohm_bu64243gwz_camera.so:system/vendor/lib/libactuator_rohm_bu64243gwz_camera.so \
     vendor/xiaomi/cancro/proprietary/vendor/lib/libactuator_lc8214.so:system/vendor/lib/libactuator_lc8214.so \
     vendor/xiaomi/cancro/proprietary/vendor/lib/libactuator_ov12830_camera.so:system/vendor/lib/libactuator_ov12830_camera.so \
+    vendor/xiaomi/cancro/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:system/etc/firmware/cpp_firmware_v1_1_1.fw \
+    vendor/xiaomi/cancro/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:system/etc/firmware/cpp_firmware_v1_1_6.fw \
+    vendor/xiaomi/cancro/proprietary/etc/firmware/cpp_firmware_v1_2_0.fw:system/etc/firmware/cpp_firmware_v1_2_0.fw \
     vendor/xiaomi/cancro/proprietary/vendor/firmware/keymaster/keymaster.b00:system/vendor/firmware/keymaster/keymaster.b00 \
     vendor/xiaomi/cancro/proprietary/vendor/firmware/keymaster/keymaster.b01:system/vendor/firmware/keymaster/keymaster.b01 \
     vendor/xiaomi/cancro/proprietary/vendor/firmware/keymaster/keymaster.b02:system/vendor/firmware/keymaster/keymaster.b02 \
     vendor/xiaomi/cancro/proprietary/vendor/firmware/keymaster/keymaster.b03:system/vendor/firmware/keymaster/keymaster.b03 \
     vendor/xiaomi/cancro/proprietary/vendor/firmware/keymaster/keymaster.mdt:system/vendor/firmware/keymaster/keymaster.mdt \
-   vendor/xiaomi/cancro/proprietary/vendor/firmware/bcm2079xB5_firmware.ncd:system/vendor/firmware/bcm2079xB5_firmware.ncd \
-   vendor/xiaomi/cancro/proprietary/vendor/firmware/bcm2079xB5_pre_firmware.ncd:system/vendor/firmware/bcm2079xB5_pre_firmware.ncd \
-    vendor/xiaomi/cancro/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:system/etc/firmware/cpp_firmware_v1_1_1.fw \
-    vendor/xiaomi/cancro/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:system/etc/firmware/cpp_firmware_v1_1_6.fw \
-    vendor/xiaomi/cancro/proprietary/etc/firmware/cpp_firmware_v1_2_0.fw:system/etc/firmware/cpp_firmware_v1_2_0.fw \
+    vendor/xiaomi/cancro/proprietary/vendor/firmware/bcm2079xB5_firmware.ncd:system/vendor/firmware/bcm2079xB5_firmware.ncd \
+    vendor/xiaomi/cancro/proprietary/vendor/firmware/bcm2079xB5_pre_firmware.ncd:system/vendor/firmware/bcm2079xB5_pre_firmware.ncd \
     vendor/xiaomi/cancro/proprietary/bin/mpdecision:system/bin/mpdecision \
     vendor/xiaomi/cancro/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
     vendor/xiaomi/cancro/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so \
