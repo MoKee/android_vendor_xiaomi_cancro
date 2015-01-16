@@ -22,7 +22,6 @@ PRODUCT_PACKAGES += \
     libmm-abl \
     libTimeService \
     libqct_resampler \
-    sensors.msm8974 \
     libqminvapi \
     libtime_genoff
 
