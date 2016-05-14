@@ -27,29 +27,13 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/cancro/proprietary/lib/libchromatix_s5k3m2_liveshot.so:system/lib/libchromatix_s5k3m2_liveshot.so \
     vendor/xiaomi/cancro/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:system/etc/firmware/cpp_firmware_v1_1_1.fw \
     vendor/xiaomi/cancro/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:system/etc/firmware/cpp_firmware_v1_1_6.fw \
-    vendor/xiaomi/cancro/proprietary/etc/firmware/cpp_firmware_v1_2_0.fw:system/etc/firmware/cpp_firmware_v1_2_0.fw
-
-# Chromatix
-chromatix_files := $(shell ls vendor/xiaomi/cancro/proprietary/vendor/lib/libchromatix*)
-PRODUCT_COPY_FILES += $(foreach file, $(chromatix_files), \
-        $(file):system/vendor/lib/$(shell basename $(file)))
-
-# mmcamera
-libmmcamera_files := $(shell ls vendor/xiaomi/cancro/proprietary/vendor/lib/libmmcamera*)
-PRODUCT_COPY_FILES += $(foreach file, $(libmmcamera_files), \
-        $(file):system/vendor/lib/$(shell basename $(file)))
-
-# mmcamera2
-libmmcamera2_files := $(shell ls vendor/xiaomi/cancro/proprietary/vendor/lib/libmmcamera2*)
-PRODUCT_COPY_FILES += $(foreach file, $(libmmcamera2_files), \
-        $(file):system/vendor/lib/$(shell basename $(file)))
-
-# actuator
-libactuator_files := $(shell ls vendor/xiaomi/cancro/proprietary/vendor/lib/libactuator*)
-PRODUCT_COPY_FILES += $(foreach file, $(libactuator_files), \
-        $(file):system/vendor/lib/$(shell basename $(file)))
-
-PRODUCT_COPY_FILES += \
+    vendor/xiaomi/cancro/proprietary/etc/firmware/cpp_firmware_v1_2_0.fw:system/etc/firmware/cpp_firmware_v1_2_0.fw \
+    vendor/xiaomi/cancro/proprietary/etc/android_model_facea.dat:system/etc/android_model_facea.dat \
+    vendor/xiaomi/cancro/proprietary/etc/android_model_faceg.dat:system/etc/android_model_faceg.dat \
+    vendor/xiaomi/cancro/proprietary/etc/sdm_200_HOG3x3_Grid3x3_bin5_noproj_zero_reduced.bin:system/etc/sdm_200_HOG3x3_Grid3x3_bin5_noproj_zero_reduced.bin \
+    vendor/xiaomi/cancro/proprietary/etc/sdm_200_HOG3x3_Grid3x3_bin5_noproj_zero_reduced.bin.pca:system/etc/sdm_200_HOG3x3_Grid3x3_bin5_noproj_zero_reduced.bin.pca \
+    vendor/xiaomi/cancro/proprietary/rootdir/chargeonlymode:root/sbin/chargeonlymode \
+    vendor/xiaomi/cancro/proprietary/rootdir/e2fsck_static:root/sbin/e2fsck_static \
     vendor/xiaomi/cancro/proprietary/vendor/firmware/keymaster/keymaster.b00:system/vendor/firmware/keymaster/keymaster.b00 \
     vendor/xiaomi/cancro/proprietary/vendor/firmware/keymaster/keymaster.b01:system/vendor/firmware/keymaster/keymaster.b01 \
     vendor/xiaomi/cancro/proprietary/vendor/firmware/keymaster/keymaster.b02:system/vendor/firmware/keymaster/keymaster.b02 \
@@ -109,11 +93,12 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/cancro/proprietary/vendor/lib/libbccQTI.so:system/vendor/lib/libbccQTI.so \
     vendor/xiaomi/cancro/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
     vendor/xiaomi/cancro/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
-    vendor/xiaomi/cancro/proprietary/vendor/lib/libc2d30.so:system/vendor/lib/libc2d30.so \
+    vendor/xiaomi/cancro/proprietary/vendor/lib/libc2d30-a4xx.so:system/vendor/lib/libc2d30-a4xx.so \
     vendor/xiaomi/cancro/proprietary/vendor/lib/libc2d30-a3xx.so:system/vendor/lib/libc2d30-a3xx.so \
     vendor/xiaomi/cancro/proprietary/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so \
     vendor/xiaomi/cancro/proprietary/vendor/lib/libllvm-qcom.so:system/vendor/lib/libllvm-qcom.so \
     vendor/xiaomi/cancro/proprietary/vendor/lib/libOpenCL.so:system/vendor/lib/libOpenCL.so \
+    vendor/xiaomi/cancro/proprietary/vendor/lib/libsc-a2xx.so:system/vendor/lib/libsc-a2xx.so \
     vendor/xiaomi/cancro/proprietary/vendor/lib/libsc-a3xx.so:system/vendor/lib/libsc-a3xx.so \
     vendor/xiaomi/cancro/proprietary/vendor/lib/libRSDriver_adreno.so:system/vendor/lib/libRSDriver_adreno.so \
     vendor/xiaomi/cancro/proprietary/vendor/lib/librs_adreno.so:system/vendor/lib/librs_adreno.so \
@@ -237,3 +222,23 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/cancro/proprietary/vendor/lib/rfsa/adsp/libfastcvadsp.so:system/lib/rfsa/adsp/libfastcvadsp.so \
     vendor/xiaomi/cancro/proprietary/vendor/lib/rfsa/adsp/libscveT2T_skel.so:system/lib/rfsa/adsp/libscveT2T_skel.so \
     vendor/xiaomi/cancro/proprietary/vendor/lib/libsrsprocessing.so:system/vendor/lib/libsrsprocessing.so
+
+# Chromatix
+chromatix_files := $(shell ls vendor/xiaomi/cancro/proprietary/vendor/lib/libchromatix*)
+PRODUCT_COPY_FILES += $(foreach file, $(chromatix_files), \
+        $(file):system/vendor/lib/$(shell basename $(file)))
+
+# mmcamera
+libmmcamera_files := $(shell ls vendor/xiaomi/cancro/proprietary/vendor/lib/libmmcamera*)
+PRODUCT_COPY_FILES += $(foreach file, $(libmmcamera_files), \
+        $(file):system/vendor/lib/$(shell basename $(file)))
+
+# mmcamera2
+libmmcamera2_files := $(shell ls vendor/xiaomi/cancro/proprietary/vendor/lib/libmmcamera2*)
+PRODUCT_COPY_FILES += $(foreach file, $(libmmcamera2_files), \
+        $(file):system/vendor/lib/$(shell basename $(file)))
+
+# actuator
+libactuator_files := $(shell ls vendor/xiaomi/cancro/proprietary/vendor/lib/libactuator*)
+PRODUCT_COPY_FILES += $(foreach file, $(libactuator_files), \
+        $(file):system/vendor/lib/$(shell basename $(file)))
