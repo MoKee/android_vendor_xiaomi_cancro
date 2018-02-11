@@ -34,7 +34,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/cancro/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/xiaomi/cancro/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
     vendor/xiaomi/cancro/proprietary/bin/time_daemon:system/bin/time_daemon \
-    vendor/xiaomi/cancro/proprietary/vendor/bin/wcnss_service:system/vendor/bin/wcnss_service \
     vendor/xiaomi/cancro/proprietary/etc/android_model_facea.dat:system/etc/android_model_facea.dat \
     vendor/xiaomi/cancro/proprietary/etc/android_model_faceg.dat:system/etc/android_model_faceg.dat \
     vendor/xiaomi/cancro/proprietary/etc/data/dsi_config.xml:system/etc/data/dsi_config.xml \
